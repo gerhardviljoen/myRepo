@@ -4,13 +4,13 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.4s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -43,24 +43,24 @@
     background: #373737;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #444;
     transform: translate3d(0, 100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      background: url("/dist/img/portrait.jpg");
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a;
       height: 250px;
       width: 250px; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -74,7 +74,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     position: relative;
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .menu .nav-link:hover {
       color: #eece1a; }
 
@@ -101,7 +101,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -151,7 +151,7 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #eece1a;
-        transition: all 0.5s ease-out; }
+        transition: all 0.4s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -191,7 +191,7 @@ main {
     .projects img:hover {
       border-color: #eece1a;
       opacity: 0.5;
-      transition: all 0.5s ease-out; }
+      transition: all 0.4s ease-out; }
 
 .boxes {
   display: flex;
@@ -204,7 +204,7 @@ main {
     font-size: 2rem;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
+    transition: all 0.4s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #eece1a;
